@@ -146,13 +146,18 @@ h1{
 	font-weight:normal;
 	text-align:center;
 }
+h2{
+	margin:1.5em 0;
+}
 nav{
 	padding-left:10px;
 	padding-top:10px;
-	/*position:fixed;*/
+	position:fixed;
 	background:#C7ECFC;
 	width:950px;
-	/*border-bottom:5px solid rgba(199, 236, 252,0.2)*/
+	height:35px;
+	z-index:100;
+	border-bottom:1px solid #e4e4e4;
 }
 
 nav a,nav a:visited{
@@ -170,15 +175,18 @@ nav a:active{
 nav .share{
 	width:300px;
 	float:right;
+	text-align:right;
 }
 table{
-	margin-top:15px;
+	margin-bottom:1.5em;
+
+
 }
 th{
 	font-size:18px;
 }
 th,td{
-	border-bottom:1px solid #ccc;
+	border-bottom:1px solid #E4E4E4;
 	padding:5px;
 	vertical-align:middle;
 }
@@ -217,6 +225,7 @@ td:nth-child(n+4) .ir{
 .rant td div:before{
 	content:"The truth : ";
 	display:block;
+	font-weight:bold
 }
 .rant{
 	font-size:13px;
@@ -228,11 +237,19 @@ td:nth-child(n+4) .ir{
 	box-shadow:inset 0 5px 5px rgba(200,200,200,0.2),inset 0 -5px 5px rgba(200,200,200,0.2);
 }
 .ok{
-	/*opacity:0.3*/
+	opacity:0.3
 }
 
+footer{
+	background: -moz-linear-gradient(top, #FFF 20%, #C7ECFC 100%);
+    background: linear-gradient(top, #FFF 20%, #C7ECFC 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,#FFF), color-stop(100%,#C7ECFC));
+	padding-bottom:1.5em;
+	padding-left:60px;
+}
 
-
+a.retweet { font: 12px Helvetica,Arial !important; color: #000; text-decoration: none; border: 0px; }
+a.retweet span { color: #FFF; background: #94CC3D; margin-left: 2px; border: 1px solid #43A52A; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; padding: 3px; }
 
 
 
