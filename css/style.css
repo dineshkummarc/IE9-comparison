@@ -115,14 +115,14 @@ button {  width: auto; overflow: visible; }
     \\ ========================================== //
 */
 html{
-    background:#DAF3FD;
+    background:#DAF3FD url(../img/bg.gif) repeat-y 50% 0;
 }
 body{
     background:#fff;
     width:960px;
-    -moz-box-shadow:1px 0 0 #90D3F7,-1px 0 0 #90D3F7,2px 0 1px #fff,-2px 0 1px #fff,10px 0 2px #C2E4F3,-10px 0 2px #C2E4F3;
-    -webkit-box-shadow:1px 0 0 #90D3F7,-1px 0 0 #90D3F7,2px 0 1px #fff,-2px 0 1px #fff,10px 0 2px #C2E4F3,-10px 0 2px #C2E4F3;
-    box-shadow:1px 0 0 #90D3F7,-1px 0 0 #90D3F7,2px 0 1px #fff,-2px 0 1px #fff,10px 0 2px #C2E4F3,-10px 0 2px #C2E4F3;
+    /*-moz-box-shadow:1px 0 0 #90D3F7,-1px 0 0 #90D3F7,2px 0 1px #fff,-2px 0 1px #fff,10px 0 2px #C2E4F3,-10px 0 2px #C2E4F3;*/
+    /*-webkit-box-shadow:1px 0 0 #90D3F7,-1px 0 0 #90D3F7,2px 0 1px #fff,-2px 0 1px #fff,10px 0 2px #C2E4F3,-10px 0 2px #C2E4F3;*/
+    /*box-shadow:1px 0 0 #90D3F7,-1px 0 0 #90D3F7,2px 0 1px #fff,-2px 0 1px #fff,10px 0 2px #C2E4F3,-10px 0 2px #C2E4F3;*/
     margin:0 auto;
     font:15px/1.5 segoe ui,verdana,arial,sans-serif;
 }
